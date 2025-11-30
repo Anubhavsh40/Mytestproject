@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name — Student, Web Developer (HTML & CSS)" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home">Anubhav Sharma</a>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Hi — I’m <span class="accent">Anubhav Sharma</span></h1>
+          <p>First-year college student learning web development — I build clean, responsive websites with HTML & CSS.</p>
+          <div class="hero-ctas">
+            <a class="btn" href="#projects">See Projects</a>
+            <a class="btn btn-outline" href="assets/resume.pdf" download>Download Resume</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="avatar">YN</div>
+          <p><strong>Anubhav Sharma</strong><br/>B.Tech (Year 1) — Lovely Professional University</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>I’m Anubhav Sharma, a first-year B.Tech Computer Science and Engineering student at Lovely Professional University (LPU). I have a strong interest in programming, Data Structures & Algorithms (DSA), Artificial Intelligence, and Web development and Software development.
+
+Currently, I’m building a solid foundation in Java, Python, and Web Technologies, and I’m eager to explore new technologies through projects, hackathons, and collaborations. My goal is to grow as a skilled software engineer while contributing to innovative solutions that create real-world impact.</p>
+        <div class="about-grid">
+          <div>
+            <h3>Education</h3>
+            <p>First Year — Your College, Major</p>
+          </div>
+          <div>
+            <h3>Interests</h3>
+            <p>Web design, App development</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2>Projects</h2>
+        <p>Show 2–4 projects. For each: title, short description, tech used, screenshot, and a link (GitHub / live).</p>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-screenshot" aria-hidden="true">Screenshot</div>
+            <div class="project-body">
+              <h3>Project One</h3>
+              <p>Simple landing page built with HTML & CSS. Responsive design with Flexbox.</p>
+              <p class="tech">HTML • CSS • Responsive</p>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Live</a>
+                <a href="#" target="_blank" rel="noopener">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-screenshot" aria-hidden="true">Screenshot</div>
+            <div class="project-body">
+              <h3>Project Two</h3>
+              <p>A multi-section portfolio starter (this template!).</p>
+              <p class="tech">HTML • CSS • Accessibility</p>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Live</a>
+                <a href="#" target="_blank" rel="noopener">Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>HTML5</li>
+          <li>CSS3 (Flexbox, Grid)</li>
+          <li>Responsive Design</li>
+          <li>Basic Git & GitHub</li>
+          <li>Learning JavaScript</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Prefer email? <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>Or link to your LinkedIn / GitHub below.</p>
+        <div class="socials">
+          <a href="#" target="_blank" rel="noopener">GitHub</a>
+          <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Your Name — Built with ❤️</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
